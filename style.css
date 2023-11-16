@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 5px;
+    background-color: white;
+}
+
+.navbar{
+    width: 20%;
+    background-color: grey;
+    float: left;
+    height: 360px;
+}
+
+.navbar a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.navbar a:hover {
+    background-color: black;
+    transition-duration: 1s;
+    color: white;
+}
+
+.konten{
+    width: 80%;
+    background-color: white;
+    float: left;
+    padding: 5px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+}
